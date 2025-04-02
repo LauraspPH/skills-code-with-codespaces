@@ -1,16 +1,9 @@
 {
+  // Name this configuration
   "name": "Codespace for Skills!",
+  // Use the base codespace image
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
   "remoteUser": "codespace",
-  "overrideCommand": false,
-  "features": [
-    {
-      "name": "ghcr.io/devcontainers/features/common-utils:2",
-      "install_time": "precreate"
-    }
-  ],
-  "postCreateCommand": [
-    "sudo apt-get update",
-    "sudo apt-get install -y build-essential"
-  ]
+  "overrideCommand": false
 }
