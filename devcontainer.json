@@ -1,16 +1,9 @@
 {
-    "customizations": {
-        "codespaces": {
-            "repositories": {
-                "<tu-usuario>/code-with-codespaces": {
-                    "permissions": {
-                        "actions": "write",
-                        "checks": "write",
-                        "contents": "write",
-                        "id-token": "write"
-                    }
-                }
-            }
-        }
-    }
+  // Name this configuration
+  "name": "Codespace for Skills!",
+  // Use the base codespace image
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+  "remoteUser": "codespace",
+  "overrideCommand": false
 }
