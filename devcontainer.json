@@ -1,0 +1,16 @@
+{
+    "customizations": {
+        "codespaces": {
+            "repositories": {
+                "<tu-usuario>/code-with-codespaces": {
+                    "permissions": {
+                        "actions": "write",
+                        "checks": "write",
+                        "contents": "write",
+                        "id-token": "write"
+                    }
+                }
+            }
+        }
+    }
+}
